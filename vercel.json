@@ -7,16 +7,12 @@
       "config": {
         "distDir": "out"
       }
-    }    
+    }
   ],
   "rewrites": [
     {
       "source": "/",
       "destination": "/frontend/index.html"
-    },
-    {
-      "source": "/api/",
-      "destination": "/api/api.py"
     }
   ]
 }
