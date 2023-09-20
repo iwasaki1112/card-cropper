@@ -8,23 +8,5 @@
         "distDir": "out"
       }
     }
-  ],
-  "routes": [
-    {
-      "src": "/_next/static/(.*)",
-      "dest": "frontend/out/_next/static/$1"
-    },
-    {
-      "src": "/static/(.*)",
-      "dest": "frontend/out/static/$1"
-    },
-    {
-      "src": "/api/(.*)",
-      "dest": "api/api.py"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "frontend/out/$1"
-    }
   ]
 }
