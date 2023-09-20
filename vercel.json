@@ -7,11 +7,7 @@
       "config": {
         "distDir": "out"
       }
-    },
-    {
-      "src": "/api/api.py",
-      "use": "@vercel/python"
-    }
+    }    
   ],
   "rewrites": [
     {
